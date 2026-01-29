@@ -6,11 +6,10 @@ const WeatherApp = ({ weatherForecast }) => {
       <h2>{weatherForecast.day}</h2>
       <img src={weatherForecast.img} alt={weatherForecast.alt} />
       <p>
-        <span>conditions:{weatherForecast.conditions} </span>current weather
-        conditions
+        <span>conditions: {weatherForecast.conditions} </span>
       </p>
       <p>
-        <span>time:{weatherForecast.time} </span>time of day
+        <span>time:{weatherForecast.time} </span>
       </p>
     </div>
   );
