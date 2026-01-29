@@ -9,7 +9,7 @@ const WeatherApp = ({ weatherForecast }) => {
         <span>conditions: {weatherForecast.conditions} </span>
       </p>
       <p>
-        <span>time:{weatherForecast.time} </span>
+        <span>time: {weatherForecast.time} </span>
       </p>
     </div>
   );
