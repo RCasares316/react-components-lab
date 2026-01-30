@@ -4,12 +4,12 @@ const WeatherApp = ({ weatherForecast }) => {
   return (
     <div className="weather">
       <h2>{weatherForecast.day}</h2>
-      <img src={weatherForecast.img} alt={weatherForecast.alt} />
+      <img src={weatherForecast.img} alt={weatherForecast.imgAlt} />
       <p>
-        <span>conditions: {weatherForecast.conditions} </span>
+        <span>conditions: </span> {weatherForecast.conditions}
       </p>
       <p>
-        <span>time: {weatherForecast.time} </span>
+        <span>time: </span>{weatherForecast.time}
       </p>
     </div>
   );
